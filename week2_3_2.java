@@ -28,7 +28,7 @@ class Date
 				key=date[m-1];
 				if(m!=2)
 				{
-					if(key>d&&d>0)
+					if(key>=d&&d>0)
 						return true;
 					System.out.println("格式錯誤(日期)!");
 					return false;
